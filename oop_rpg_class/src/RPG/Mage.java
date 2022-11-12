@@ -7,6 +7,10 @@ public class Mage extends Hero{
     public Mage(String name, char gender) {
         super(name, gender);
         super.setHeroClass("Mage");
+        super.setIsAlive(true);
+        super.setHp(150);
+        super.setMana(250);
+        super.setDamage(200);
     }
 
     // setters

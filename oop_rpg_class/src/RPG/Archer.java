@@ -5,6 +5,10 @@ public class Archer extends Hero{
     public Archer(String name, char gender) {
         super(name, gender);
         super.setHeroClass("Archer");
+        super.setIsAlive(true);
+        super.setHp(200);
+        super.setMana(200);
+        super.setDamage(200);
     }
 
 

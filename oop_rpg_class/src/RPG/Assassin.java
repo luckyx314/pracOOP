@@ -6,6 +6,11 @@ public class Assassin extends Hero{
     public Assassin(String name, char gender) {
         super(name, gender);
         super.setHeroClass("Assassin");
+        super.setIsAlive(true);
+        super.setHp(200);
+        super.setMana(160);
+        super.setDamage(300);
+
     }
 
     // setters
