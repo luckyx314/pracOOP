@@ -1,0 +1,25 @@
+package RPG;
+
+public class Assassin extends Hero{
+    private int daggerCount;
+
+    public Assassin(String name, char gender) {
+        super(name, gender);
+        super.setHeroClass("Assassin");
+    }
+
+    // setters
+    public void setDaggerCount(int daggers) {
+        this.daggerCount = daggers;
+    }
+
+    // getters
+    public int getDaggerCount() {
+        return daggerCount;
+    }
+
+    // abstract method overrides
+    public void engage() {};
+    public void useSkill() {};
+    public void useItem() {};
+}
